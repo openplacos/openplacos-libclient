@@ -2,7 +2,7 @@
 require "rubygems"
 require "rake"
 
-GEMSPEC = Gem::Specification.new do |s|
+gemspec = Gem::Specification.new do |s|
   s.name = "openplacos"
   s.summary = "Openplacos libraries : Libclient, LibPlugin, LibDriver"
   s.description = <<-EOF
